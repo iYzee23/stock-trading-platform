@@ -1,0 +1,23 @@
+<div class="stock-prices-page">
+    <h2>Stock Prices</h2>
+    <div class="stock-list">
+      <div *ngFor="let stock of stocks | keyvalue" class="stock-item" [ngClass]="{'positive': stock.value.Change > 0, 'negative': stock.value.Change < 0}">
+        <div class="stock-header">
+          <span class="stock-symbol">{{ stock.key }}</span>
+          <span class="stock-change" [ngClass]="{'positive-change': stock.value.Change > 0, 'negative-change': stock.value.Change < 0}">
+            <span>{{ stock.value.PercentChange | percent }}</span>
+            <span>{{ stock.value.Change > 0 ? '▲' : '▼' }}</span>
+          </span>
+        </div>
+        <div class="stock-details">
+          <div class="stock-price">{{ stock.value.CurrentPrice | currency }}</div>
+          <div class="stock-info">
+            <span>High: {{ stock.value.HighPrice | currency }}</span>
+            <span>Low: {{ stock.value.LowPrice | currency }}</span>
+            <span>Open: {{ stock.value.OpenPrice | currency }}</span>
+            <span>Prev Close: {{ stock.value.PreviousClose | currency }}</span>
+          </div>
+        </div>
+    </div>
+</div>
+  

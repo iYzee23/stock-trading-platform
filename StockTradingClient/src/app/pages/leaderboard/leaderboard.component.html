@@ -1,0 +1,19 @@
+<div class="leaderboard">
+  <h2>Leaderboard</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Username</th>
+        <th>Portfolio Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of leaderboard">
+        <td>{{ user.rank }}</td>
+        <td>{{ user.username }}</td>
+        <td>{{ user.portfolioValue | currency }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

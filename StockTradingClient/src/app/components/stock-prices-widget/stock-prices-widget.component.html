@@ -1,0 +1,13 @@
+<div class="stock-prices-widget">
+  <h3>Latest Stock Prices</h3>
+  <div class="stock-carousel">
+    <button (click)="showPrevious()" class="nav-arrow left-arrow">‹</button>
+    <div class="stocks">
+      <div *ngFor="let stock of visibleStocks" class="stock-item">
+        <div class="stock-symbol">{{ stock.key }}</div>
+        <div class="stock-price">{{ stock.value.CurrentPrice | currency }}</div>
+      </div>
+    </div>
+    <button (click)="showNext()" class="nav-arrow right-arrow">›</button>
+  </div>
+</div>

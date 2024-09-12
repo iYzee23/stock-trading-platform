@@ -1,0 +1,75 @@
+# Global .gitignore for the OnboardingApplication project
+
+# ====================
+# Node.js (Angular)
+# ====================
+StockTradingClient/node_modules/
+StockTradingClient/dist/
+StockTradingClient/tmp/
+StockTradingClient/.angular/
+StockTradingClient/.angular-cache/
+StockTradingClient/*.log
+StockTradingClient/.env
+StockTradingClient/.env.*
+
+# Angular IDE/Editor-specific files
+StockTradingClient/.vscode/
+StockTradingClient/.idea/
+StockTradingClient/.DS_Store
+StockTradingClient/.editorconfig
+
+# ====================
+# Python
+# ====================
+StockTradingBot/__pycache__/
+StockTradingBot/*.pyc
+StockTradingBot/*.pyo
+StockTradingBot/*.pyd
+StockTradingBot/venv/
+StockTradingBot/*.log
+
+# Ignore Jupyter Notebooks checkpoints (if used)
+StockTradingBot/.ipynb_checkpoints/
+
+# ====================
+# Service Fabric
+# ====================
+StockTradingPlatform/bin/
+StockTradingPlatform/obj/
+StockTradingPlatform/packages/
+StockTradingPlatform/.vs/
+StockTradingPlatform/*.user
+StockTradingPlatform/*.suo
+StockTradingPlatform/FabricPackageRoot/
+StockTradingPlatform/PublishProfiles/
+
+# Ignore Service Fabric generated package directories
+StockTradingPlatform/**/pkg/
+
+# ====================
+# General Files
+# ====================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.sln.docstates
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.save
+
+# IDE-specific files
+.vscode/
+.idea/
+*.code-workspace

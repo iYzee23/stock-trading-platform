@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "ub3w+yudToo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\TRealTimeBroadcaster\\TRealTimeBroadcaster.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric\\10.1.2338\\microsoft.servicefabric.10.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.actors\\7.1.2338\\microsoft.servicefabric.actors.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.aspnetcore.abstractions\\7.1.2338\\microsoft.servicefabric.aspnetcore.abstractions.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.aspnetcore.kestrel\\7.1.2338\\microsoft.servicefabric.aspnetcore.kestrel.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.data\\7.1.2338\\microsoft.servicefabric.data.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.data.extensions\\7.1.2338\\microsoft.servicefabric.data.extensions.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.data.interfaces\\7.1.2338\\microsoft.servicefabric.data.interfaces.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.diagnostics.internal\\7.1.2338\\microsoft.servicefabric.diagnostics.internal.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.fabrictransport.internal\\7.1.2338\\microsoft.servicefabric.fabrictransport.internal.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.services\\7.1.2338\\microsoft.servicefabric.services.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.services.remoting\\7.1.2338\\microsoft.servicefabric.services.remoting.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\swashbuckle.aspnetcore\\6.7.1\\swashbuckle.aspnetcore.6.7.1.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.7.1\\swashbuckle.aspnetcore.swagger.6.7.1.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.7.1\\swashbuckle.aspnetcore.swaggergen.6.7.1.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.7.1\\swashbuckle.aspnetcore.swaggerui.6.7.1.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.8\\microsoft.aspnetcore.app.runtime.win-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.8\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.8\\microsoft.netcore.app.runtime.win-x64.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

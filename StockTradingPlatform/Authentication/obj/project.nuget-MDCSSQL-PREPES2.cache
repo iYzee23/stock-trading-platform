@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "x763VOHQfjQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\Authentication\\Authentication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.1\\microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.0.1\\microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.identitymodel.logging\\8.0.1\\microsoft.identitymodel.logging.8.0.1.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric\\10.1.2338\\microsoft.servicefabric.10.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.actors\\7.1.2338\\microsoft.servicefabric.actors.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.data\\7.1.2338\\microsoft.servicefabric.data.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.data.extensions\\7.1.2338\\microsoft.servicefabric.data.extensions.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.data.interfaces\\7.1.2338\\microsoft.servicefabric.data.interfaces.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.diagnostics.internal\\7.1.2338\\microsoft.servicefabric.diagnostics.internal.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.fabrictransport.internal\\7.1.2338\\microsoft.servicefabric.fabrictransport.internal.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.services\\7.1.2338\\microsoft.servicefabric.services.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.services.remoting\\7.1.2338\\microsoft.servicefabric.services.remoting.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.0.1\\system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.8\\microsoft.aspnetcore.app.runtime.win-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.8\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.8\\microsoft.netcore.app.runtime.win-x64.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

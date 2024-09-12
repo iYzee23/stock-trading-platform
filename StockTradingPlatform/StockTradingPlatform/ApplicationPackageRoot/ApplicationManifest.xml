@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ApplicationTypeName="StockTradingPlatformType" ApplicationTypeVersion="1.0.0" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="AngularClient_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
+    <Parameter Name="FrontendWeb_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
+    <Parameter Name="TRealTimeBroadcaster_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
+    <Parameter Name="PlatformAPIV2_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
+    <Parameter Name="PlatformAPI_ASPNETCORE_ENVIRONMENT" DefaultValue="" />
+  </Parameters>
+  <!-- Import the ServiceManifest from the ServicePackage. The ServiceManifestName and ServiceManifestVersion 
+       should match the Name and Version attributes of the ServiceManifest element defined in the 
+       ServiceManifest.xml file. -->
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="PythonBotPkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+  </ServiceManifestImport>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="AngularClientPkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+    <EnvironmentOverrides CodePackageRef="code">
+      <EnvironmentVariable Name="ASPNETCORE_ENVIRONMENT" Value="[AngularClient_ASPNETCORE_ENVIRONMENT]" />
+    </EnvironmentOverrides>
+  </ServiceManifestImport>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="TRealTimeBroadcasterPkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+    <EnvironmentOverrides CodePackageRef="code">
+      <EnvironmentVariable Name="ASPNETCORE_ENVIRONMENT" Value="[TRealTimeBroadcaster_ASPNETCORE_ENVIRONMENT]" />
+    </EnvironmentOverrides>
+  </ServiceManifestImport>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="PlatformAPIV2Pkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+    <EnvironmentOverrides CodePackageRef="code">
+      <EnvironmentVariable Name="ASPNETCORE_ENVIRONMENT" Value="[PlatformAPIV2_ASPNETCORE_ENVIRONMENT]" />
+    </EnvironmentOverrides>
+  </ServiceManifestImport>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="AuthenticationPkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+  </ServiceManifestImport>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="LeaderboardStatelessPkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+  </ServiceManifestImport>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="TradingStatefulPkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+  </ServiceManifestImport>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="UserPortfolioActorPkg" ServiceManifestVersion="1.0.0" />
+  </ServiceManifestImport>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="UserProfilePkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+  </ServiceManifestImport>
+  <ServiceManifestImport>
+    <ServiceManifestRef ServiceManifestName="AggregatorPkg" ServiceManifestVersion="1.0.0" />
+    <ConfigOverrides />
+  </ServiceManifestImport>
+  <!--
+  <DefaultServices>
+    <Service Name="AngularClient" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="AngularClientType">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+    <Service Name="PythonBot" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="PythonBotType">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+    <Service Name="TRealTimeBroadcaster" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="TRealTimeBroadcasterType">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+    <Service Name="PlatformAPIV2" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="PlatformAPIV2Type">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+    <Service Name="Authentication" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="AuthenticationType">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+    <Service Name="LeaderboardStateless" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="LeaderboardStatelessType">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+    <Service Name="TradingStateful" ServicePackageActivationMode="ExclusiveProcess">
+      <StatefulService ServiceTypeName="TradingStatefulType">
+        <NamedPartition>
+          <Partition Name="SRB" />
+          <Partition Name="MNE" />
+          <Partition Name="BIH" />
+        </NamedPartition>
+      </StatefulService>
+    </Service>
+    <Service Name="UserProfile" ServicePackageActivationMode="ExclusiveProcess">
+      <StatefulService ServiceTypeName="UserProfileType" TargetReplicaSetSize="3" MinReplicaSetSize="3">
+        <UniformInt64Partition PartitionCount="1" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
+      </StatefulService>
+    </Service>
+    <Service Name="Aggregator" ServicePackageActivationMode="ExclusiveProcess">
+      <StatelessService ServiceTypeName="AggregatorType">
+        <SingletonPartition />
+      </StatelessService>
+    </Service>
+    <Service Name="UserPortfolioActorService" ServicePackageActivationMode="ExclusiveProcess">
+      <StatefulService ServiceTypeName="UserPortfolioActorServiceType" TargetReplicaSetSize="3" MinReplicaSetSize="3">
+        <UniformInt64Partition PartitionCount="1" LowKey="-9223372036854775808" HighKey="9223372036854775807" />
+      </StatefulService>
+    </Service>
+  </DefaultServices>
+  -->
+</ApplicationManifest>

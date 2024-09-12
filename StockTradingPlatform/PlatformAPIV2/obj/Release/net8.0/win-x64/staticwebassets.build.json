@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "33+D3vnPQGLiCfaL4yTYLQ0kZmKdsxgWm+6TcSljI8k=",
+  "Source": "PlatformAPIV2",
+  "BasePath": "_content/PlatformAPIV2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\TRealTimeBroadcaster\\TRealTimeBroadcaster.csproj",
+      "Version": 2,
+      "Source": "TRealTimeBroadcaster",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

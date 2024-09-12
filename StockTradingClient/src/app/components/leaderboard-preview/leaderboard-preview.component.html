@@ -1,0 +1,10 @@
+<div class="leaderboard-preview-widget">
+  <h2>Top 5 Users</h2>
+  <ul>
+    <li *ngFor="let user of leaderboard">
+      <span class="rank">{{ user.rank }}.</span>
+      <span class="username">{{ user.username }}</span> -
+      <span class="value">{{ user.portfolioValue | currency }}</span>
+    </li>
+  </ul>
+</div>

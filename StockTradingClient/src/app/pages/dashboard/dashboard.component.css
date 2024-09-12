@@ -1,0 +1,27 @@
+.dashboard {
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
+
+.full-width-widget {
+  margin-bottom: 2rem;
+}
+
+.full-width-widget .widget {
+  width: 100%;
+  padding: 0;
+  box-shadow: none;
+}
+
+.widgets-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.widget {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}

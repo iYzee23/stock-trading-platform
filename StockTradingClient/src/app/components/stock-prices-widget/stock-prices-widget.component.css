@@ -1,0 +1,45 @@
+.stock-prices-widget {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    margin-bottom: 1rem;
+    color: #4a2c2a;
+  }
+
+  .stock-carousel {
+    display: flex;
+    align-items: center;
+  }
+
+  .stocks {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .stock-item {
+    flex: 1 0 calc(100% / 5);
+    text-align: center;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+
+  .nav-arrow {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #4a2c2a;
+  }
+
+  .left-arrow {
+    margin-right: 10px;
+  }
+
+  .right-arrow {
+    margin-left: 10px;
+  }
+}

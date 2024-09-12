@@ -1,0 +1,410 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\UserPortfolioActor\\UserPortfolioActor.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\Aggregator\\Aggregator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\Aggregator\\Aggregator.csproj",
+        "projectName": "Aggregator",
+        "projectPath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\Aggregator\\Aggregator.csproj",
+        "packagesPath": "C:\\Users\\pesicpredrag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\Aggregator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pesicpredrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\TRealTimeBroadcaster\\TRealTimeBroadcaster.csproj": {
+                "projectPath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\TRealTimeBroadcaster\\TRealTimeBroadcaster.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Connections.Client": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Server.Kestrel.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client.Core": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.ServiceFabric.Actors": {
+              "target": "Package",
+              "version": "[7.1.2338, )"
+            },
+            "Microsoft.ServiceFabric.AspNetCore.Kestrel": {
+              "target": "Package",
+              "version": "[7.1.2338, )"
+            },
+            "Microsoft.ServiceFabric.Services": {
+              "target": "Package",
+              "version": "[7.1.2338, )"
+            },
+            "Microsoft.ServiceFabric.Services.Remoting": {
+              "target": "Package",
+              "version": "[7.1.2338, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\TRealTimeBroadcaster\\TRealTimeBroadcaster.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\TRealTimeBroadcaster\\TRealTimeBroadcaster.csproj",
+        "projectName": "TRealTimeBroadcaster",
+        "projectPath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\TRealTimeBroadcaster\\TRealTimeBroadcaster.csproj",
+        "packagesPath": "C:\\Users\\pesicpredrag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\TRealTimeBroadcaster\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pesicpredrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.ServiceFabric.Actors": {
+              "target": "Package",
+              "version": "[7.1.2338, )"
+            },
+            "Microsoft.ServiceFabric.AspNetCore.Kestrel": {
+              "target": "Package",
+              "version": "[7.1.2338, )"
+            },
+            "Microsoft.ServiceFabric.Services.Remoting": {
+              "target": "Package",
+              "version": "[7.1.2338, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\UserPortfolioActor.Interfaces\\UserPortfolioActor.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\UserPortfolioActor.Interfaces\\UserPortfolioActor.Interfaces.csproj",
+        "projectName": "UserPortfolioActor.Interfaces",
+        "projectPath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\UserPortfolioActor.Interfaces\\UserPortfolioActor.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\pesicpredrag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\UserPortfolioActor.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pesicpredrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.ServiceFabric.Actors": {
+              "target": "Package",
+              "version": "[7.1.2338, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\UserPortfolioActor\\UserPortfolioActor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\UserPortfolioActor\\UserPortfolioActor.csproj",
+        "projectName": "UserPortfolioActor",
+        "projectPath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\UserPortfolioActor\\UserPortfolioActor.csproj",
+        "packagesPath": "C:\\Users\\pesicpredrag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\UserPortfolioActor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pesicpredrag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\Aggregator\\Aggregator.csproj": {
+                "projectPath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\Aggregator\\Aggregator.csproj"
+              },
+              "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\UserPortfolioActor.Interfaces\\UserPortfolioActor.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\UserPortfolioActor.Interfaces\\UserPortfolioActor.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.ServiceFabric.Actors": {
+              "target": "Package",
+              "version": "[7.1.2338, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[8.0.8, 8.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<div class="stock-prices-widget">
+    <h3>Latest Stock Prices</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let stock of stockPrices | keyvalue">
+          <td>{{ stock.key }}</td>
+          <td>{{ stock.value.CurrentPrice | currency }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

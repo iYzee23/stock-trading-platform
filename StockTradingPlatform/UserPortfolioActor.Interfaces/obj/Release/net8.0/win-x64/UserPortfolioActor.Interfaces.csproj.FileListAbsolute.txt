@@ -1,0 +1,13 @@
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\bin\Release\net8.0\win-x64\UserPortfolioActor.Interfaces.deps.json
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\bin\Release\net8.0\win-x64\UserPortfolioActor.Interfaces.dll
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\bin\Release\net8.0\win-x64\UserPortfolioActor.Interfaces.pdb
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\obj\Release\net8.0\win-x64\UserPortfolioActor.Interfaces.csproj.AssemblyReference.cache
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\obj\Release\net8.0\win-x64\UserPortfolioActor.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\obj\Release\net8.0\win-x64\UserPortfolioActor.Interfaces.AssemblyInfoInputs.cache
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\obj\Release\net8.0\win-x64\UserPortfolioActor.Interfaces.AssemblyInfo.cs
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\obj\Release\net8.0\win-x64\UserPortfolioActor.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\obj\Release\net8.0\win-x64\UserPortfolioActor.Interfaces.sourcelink.json
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\obj\Release\net8.0\win-x64\UserPortfolioActor.Interfaces.dll
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\obj\Release\net8.0\win-x64\refint\UserPortfolioActor.Interfaces.dll
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\obj\Release\net8.0\win-x64\UserPortfolioActor.Interfaces.pdb
+C:\Users\pesicpredrag\OneDrive - Microsoft\Desktop\OnboardingApplication\StockTradingPlatform\UserPortfolioActor.Interfaces\obj\Release\net8.0\win-x64\ref\UserPortfolioActor.Interfaces.dll

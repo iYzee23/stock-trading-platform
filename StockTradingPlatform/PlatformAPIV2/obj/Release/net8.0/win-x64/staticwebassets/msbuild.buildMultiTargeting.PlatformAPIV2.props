@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PlatformAPIV2.props" />
+</Project>

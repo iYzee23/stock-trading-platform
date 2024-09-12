@@ -1,0 +1,104 @@
+.user-profile {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #4a2c2a;
+  font-size: 2.5rem;
+}
+
+.card {
+  margin-bottom: 2rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #4a2c2a;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #4a2c2a;
+  padding-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+p strong {
+  color: #4a2c2a;
+}
+
+button {
+  background-color: #4a2c2a;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3a1f1d;
+}
+
+button:focus {
+  outline: none;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  color: #4a2c2a;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.transaction-history {
+  margin-top: 1rem;
+}
+
+h4 {
+  margin-top: 1rem;
+  color: #4a2c2a;
+  font-size: 1.25rem;
+}
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #4a2c2a;
+  color: #fff;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

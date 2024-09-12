@@ -1,0 +1,8 @@
+<header class="header">
+  <div class="logo">
+    <h1 (click)="navigateHome()" class="header-title">StockTradingPlatform</h1>
+  </div>
+  <div class="user-actions">
+    <button *ngIf="isLoggedIn" (click)="logout()" class="btn-logout">Logout</button>
+  </div>
+</header>

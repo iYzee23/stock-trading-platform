@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StartupServices xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="AngularClient_InstanceCount" Value="1" />
+    <Parameter Name="TRealTimeBroadcaster_InstanceCount" Value="1" />
+    <Parameter Name="RealTimeBroadcaster_InstanceCount" Value="1" />
+    <Parameter Name="PlatformAPIV2_InstanceCount" Value="1" />
+    <Parameter Name="Authentication_InstanceCount" Value="1" />
+    <Parameter Name="LeaderboardStateless_InstanceCount" Value="1" />
+    <Parameter Name="TradingStateful_PartitionCount" Value="1" />
+    <Parameter Name="TradingStateful_MinReplicaSetSize" Value="1" />
+    <Parameter Name="TradingStateful_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="UserProfile_PartitionCount" Value="1" />
+    <Parameter Name="UserProfile_MinReplicaSetSize" Value="1" />
+    <Parameter Name="UserProfile_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="Aggregator_InstanceCount" Value="1" />
+    <Parameter Name="UserPortfolioActorService_PartitionCount" Value="1" />
+    <Parameter Name="UserPortfolioActorService_TargetReplicaSetSize" Value="1" />
+    <Parameter Name="UserPortfolioActorService_MinReplicaSetSize" Value="1" />
+  </Parameters>
+</StartupServices>

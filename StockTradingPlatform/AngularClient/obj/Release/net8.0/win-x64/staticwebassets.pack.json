@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\AngularClient\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\AngularClient\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\AngularClient\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\AngularClient\\wwwroot\\main.1d31a701f24cfa67.js",
+      "PackagePath": "staticwebassets\\main.1d31a701f24cfa67.js"
+    },
+    {
+      "Id": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\AngularClient\\wwwroot\\polyfills.cf888c5d225dc62a.js",
+      "PackagePath": "staticwebassets\\polyfills.cf888c5d225dc62a.js"
+    },
+    {
+      "Id": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\AngularClient\\wwwroot\\runtime.911ed599518f3412.js",
+      "PackagePath": "staticwebassets\\runtime.911ed599518f3412.js"
+    },
+    {
+      "Id": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\AngularClient\\wwwroot\\styles.d8ab6152ac43914b.css",
+      "PackagePath": "staticwebassets\\styles.d8ab6152ac43914b.css"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x64\\staticwebassets\\msbuild.AngularClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x64\\staticwebassets\\msbuild.build.AngularClient.props",
+      "PackagePath": "build\\AngularClient.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x64\\staticwebassets\\msbuild.buildMultiTargeting.AngularClient.props",
+      "PackagePath": "buildMultiTargeting\\AngularClient.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\win-x64\\staticwebassets\\msbuild.buildTransitive.AngularClient.props",
+      "PackagePath": "buildTransitive\\AngularClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

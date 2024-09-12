@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\pesicpredrag\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\pesicpredrag\\.nuget\\packages"
+    ]
+  }
+}

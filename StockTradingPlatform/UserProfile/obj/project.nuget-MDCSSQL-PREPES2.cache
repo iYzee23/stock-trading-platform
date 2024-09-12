@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "WJKe5ZFl8dY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pesicpredrag\\OneDrive - Microsoft\\Desktop\\OnboardingApplication\\StockTradingPlatform\\UserProfile\\UserProfile.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric\\10.1.2338\\microsoft.servicefabric.10.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.actors\\7.1.2338\\microsoft.servicefabric.actors.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.data\\7.1.2338\\microsoft.servicefabric.data.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.data.extensions\\7.1.2338\\microsoft.servicefabric.data.extensions.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.data.interfaces\\7.1.2338\\microsoft.servicefabric.data.interfaces.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.diagnostics.internal\\7.1.2338\\microsoft.servicefabric.diagnostics.internal.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.fabrictransport.internal\\7.1.2338\\microsoft.servicefabric.fabrictransport.internal.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.services\\7.1.2338\\microsoft.servicefabric.services.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.servicefabric.services.remoting\\7.1.2338\\microsoft.servicefabric.services.remoting.7.1.2338.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.8\\microsoft.aspnetcore.app.runtime.win-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.8\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\pesicpredrag\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.8\\microsoft.netcore.app.runtime.win-x64.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

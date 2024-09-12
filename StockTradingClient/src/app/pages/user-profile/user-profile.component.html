@@ -1,0 +1,48 @@
+<div class="user-profile">
+  <h1>User Profile</h1>
+
+  <section class="profile-information card">
+    <h2><i class="fas fa-user"></i> Profile Information</h2>
+    <p><strong>Username:</strong> {{ userProfile?.username }}</p>
+    <p><strong>Email:</strong> {{ userProfile?.email }}</p>
+    <p><strong>Name:</strong> {{ userProfile?.name }}</p>
+    <p><strong>Country:</strong> {{ userProfile?.country }}</p>
+    <p><strong>Balance:</strong> {{ userProfile?.balance | currency }}</p>
+  </section>
+
+  <section class="portfolio-details card">
+    <h2><i class="fas fa-chart-line"></i> Portfolio Details</h2>
+    <p><strong>Total Portfolio Value:</strong> {{ totalPortfolioValue | currency }}</p>
+
+    <div *ngFor="let item of portfolioDetails">
+      <h3>{{ item.symbol }}</h3>
+      <p><strong>Quantity:</strong> {{ item.quantity }}</p>
+
+      <button (click)="toggleExpand(item)">
+        {{ item.expanded ? 'Hide Transactions' : 'Show Transactions' }}
+      </button>
+      
+      <div *ngIf="item.expanded" class="transaction-history">
+        <h4>Transaction History</h4>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Transaction Type</th>
+              <th>Price</th>
+              <th>Quantity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let transaction of getTransactionsForSymbol(item.symbol)">
+              <td>{{ transaction.timestamp | date: 'short' }}</td>
+              <td>{{ transaction.isBuy ? 'Buy' : 'Sell' }}</td>
+              <td>{{ transaction.price | currency }}</td>
+              <td>{{ transaction.quantity }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>
